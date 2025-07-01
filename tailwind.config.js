@@ -1,6 +1,8 @@
+import daisyui from 'daisyui';
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
       colors: {
@@ -22,8 +24,7 @@ export default {
       fontFamily: {
         serif: ["Playfair Display", "serif"],
         sans: ["Inter", "sans-serif"],
-        script: ['"New Icon Script"', "cursive"],
-        display: ['"New Icon Serif"', "serif"],
+        script: ["Dancing Script", "cursive"],
       },
       spacing: {
         18: "4.5rem",
@@ -31,7 +32,7 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [daisyui],
   daisyui: {
     themes: [
       {
