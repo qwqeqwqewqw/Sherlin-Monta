@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.script-font {
+  font-family: 'Dancing Script', cursive;
+}
+
+@font-face {
+  font-family: 'New-Icon-Script';
+  src: url('/src/assets/New-Icon-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'New-Icon-Serif';
+  src: url('/src/assets/New-Icon-Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
